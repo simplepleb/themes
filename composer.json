@@ -1,0 +1,44 @@
+{
+    "name": "simplepleb/themes",
+    "description": "Themes allow you to create and switch between themes in your Laravel app. (Based on teepluss/theme)",
+    "keywords": ["laravel", "theme", "layout", "asset", "widget"],
+    "homepage": "https://github.com/simplepleb/themes",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SimplePleb",
+            "email": "plebeian.tribune@protonmail.com"
+        }
+       
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "opis/closure": "^3.5@dev"
+    },
+    "require-dev": {
+        "illuminate/support": ">=5.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "SimplePleb\\Theme\\": "src/"
+        },
+        "classmap": [
+            "src/Exceptions.php"
+        ],
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SimplePleb\\Theme\\ThemeServiceProvider"
+            ],
+            "aliases": {
+                "Theme": "SimplePleb\\Theme\\Facades\\Theme"
+            }
+        }
+    },
+    "minimum-stability": "dev"
+}
