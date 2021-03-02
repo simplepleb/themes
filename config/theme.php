@@ -35,7 +35,7 @@ return array(
 	|
 	*/
 
-	'assetUrl' => env('APP_ASSET_URL', '/'),
+	'assetUrl' => env('APP_ASSET_URL', '/themes/'),
 
 	/*
 	|--------------------------------------------------------------------------

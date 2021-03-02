@@ -32,15 +32,14 @@ return array(
 
 		'before' => function($theme)
 		{
-			$theme->setTitle('Title example');
-			$theme->setAuthor('Jonh Doe');
+			$theme->setAuthor('Simple-Pleb.com');
 		},
 
 		'asset' => function($asset)
 		{
 			$asset->themePath()->add([
-										['style', 'css/style.css'],
-										['script', 'js/script.js']
+										['style', 'assets/css/style.css'],
+										['script', 'assets/js/script.js']
 									 ]);
 
 			// You may use elixir to concat styles and scripts.

@@ -1,10 +1,10 @@
 {
     "slug": "default",
     "name": "Default",
-    "author": "John Doe",
-    "email": "johndoe@example.com",
+    "author": "SimplePleb",
+    "email": "plebeian.tribune@protonmail.com",
     "description": "This is an example theme.",
-    "web": "www.example.com",
+    "web": "www.simple-pleb.com",
     "license": "MIT",
     "version": "1.0"
 }

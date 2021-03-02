@@ -47,6 +47,10 @@ class ThemeServiceProvider extends ServiceProvider {
 
 		// Publish config.
 		$this->publishes([$configPath => config_path('theme.php')], 'config');
+
+        $this->publishes([
+            __DIR__ . '/../public/themes' => public_path('themes'),
+        ], 'themes');
 	
 	    $router->aliasMiddleware('theme', Middleware\ThemeLoader::class);
 
