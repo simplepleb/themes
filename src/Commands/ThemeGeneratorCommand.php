@@ -149,7 +149,7 @@ class ThemeGeneratorCommand extends Command {
                     $template = preg_replace('/Theme(\.|::)/', $facade.'$1', $template);
                 }
                 if ( $file == 'theme.json' ){
-                    $template = str_replace('Default', $this->getTheme(), $template);
+                    $template = str_replace('Default', ucfirst($this->getTheme()), $template);
                     $template = str_replace('default', $this->getTheme(), $template);
                 }
 

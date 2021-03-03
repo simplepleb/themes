@@ -1,5 +1,7 @@
 # Theme System For Laravel
 
+Making simple to theme a Laravel application (front-end). 
+
 ## Installation
 ``` composer require simplepleb/themes ```
 
@@ -33,3 +35,8 @@ Oreo
 Hustbee
 
 <img src="./public/themes/hustbee/screenshot.jpeg" width="400">
+
+
+### References
+
+- [Based On Teeplus/Laravel-Theme](https://github.com/teepluss/laravel-theme)
