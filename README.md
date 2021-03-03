@@ -32,4 +32,4 @@ Oreo
 
 Huckbee
 
-<img src="./public/themes/huckbee/screenshot.jpeg" width="400">
+<img src="./public/themes/hustbee/screenshot.jpeg" width="400">
