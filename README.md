@@ -15,8 +15,8 @@ php artisan vendor:publish --provider="SimplePleb\Theme\ThemeServiceProvider"
 ## Usage from controller method
 
 ~~~php
-	
-    Theme::uses('huckbee');  // change to the name of your theme
+	// themes included with package hustbee, oreo, more coming
+    Theme::uses('hustbee');  // change to the name of your theme
             
     $data['info'] = 'Hello World'; 
     
@@ -30,6 +30,6 @@ Oreo
 
 <img src="./public/themes/oreo/screenshot.jpeg" width="400">
 
-Huckbee
+Hustbee
 
 <img src="./public/themes/hustbee/screenshot.jpeg" width="400">
