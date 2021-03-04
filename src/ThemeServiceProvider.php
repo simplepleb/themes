@@ -49,16 +49,16 @@ class ThemeServiceProvider extends ServiceProvider {
 		$this->publishes([$configPath => config_path('theme.php')], 'config');
 
         $this->publishes([
-            __DIR__ . '/../public/themes' => public_path('themes'),
+            __DIR__ . '/../publishes/themes' => public_path('themes'),
         ], 'themes');
-	
+
 	    $router->aliasMiddleware('theme', Middleware\ThemeLoader::class);
 
 	    // Register blade directives:
 		$this->addToBlade(['dd', 'dd(%s);']);
 		$this->addToBlade(['dv', 'dd(get_defined_vars()[%s]);', 'dd(get_defined_vars()["__data"]);']);
 		$this->addToBlade(['d', 'dump(%s);']);
-
+        $this->addToBlade(['themeConfig', 'Theme::getConfig();']);
 
 		$this->addToBlade(['get', 'Theme::get(%s);']);
 		$this->addToBlade(['getIfHas', 'Theme::has(%1$s) ? Theme::get(%1$s) : ""']);

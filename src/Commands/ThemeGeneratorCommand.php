@@ -104,6 +104,9 @@ class ThemeGeneratorCommand extends Command {
             'style.css'			=> 'assets/css/',
             'script.js'			=> 'assets/js/',
             'theme.json'		=> '',
+            'blocks.json'		=> '',
+            'pages.json'		=> '',
+            'widgets.json'		=> '',
             'gulpfile.js'		=> '',
             'config.php'		=> ''
         ]);
@@ -159,6 +162,19 @@ class ThemeGeneratorCommand extends Command {
                     $this->files->chmod($file_path, 0666);
 
                 }
+                if(substr($file_path, -10) == 'pages.json'){
+                    $this->files->chmod($file_path, 0666);
+
+                }
+                if(substr($file_path, -10) == 'blocks.json'){
+                    $this->files->chmod($file_path, 0666);
+
+                }
+                if(substr($file_path, -10) == 'widget.json'){
+                    $this->files->chmod($file_path, 0666);
+
+                }
+
             }
         }
     }
