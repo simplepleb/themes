@@ -1,9 +1,9 @@
 {
-    "home": "",
+    "home": "index",
     "about": "",
     "contact": "",
-    "login": "",
-    "register": "",
-    "post": "",
+    "login": "login",
+    "register": "register",
+    "post": "post",
     "posts": ""
 }

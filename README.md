@@ -12,7 +12,10 @@ php artisan vendor:publish --provider="SimplePleb\Theme\ThemeServiceProvider"
 ~~~
 
 #### After Package Update: Publish themes library for updates
-``` php artisan vendor:publish --tag=themes ```
+
+```
+php artisan vendor:publish --tag=themes 
+```
 
 ## Usage from controller method
 
