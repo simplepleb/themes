@@ -11,6 +11,13 @@ Making simple to theme a Laravel application (front-end).
 php artisan vendor:publish --provider="SimplePleb\Theme\ThemeServiceProvider"
 ~~~
 
+## Before Updating Package 
+Before you run ``` composer update ``` and if you have edited any of the included themes,
+* Duplicate the folder for the edited theme
+* Update the theme.json file (theme name and slug) in the new folder.
+
+This is done to avoid the update overwriting your changes with any updates made to the module package.
+
 #### After Package Update: Publish themes library for updates
 
 ```
