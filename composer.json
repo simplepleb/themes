@@ -1,6 +1,6 @@
 {
     "name": "simplepleb/themes",
-    "version": "v1.0",
+    "version": "v1.0.1",
     "description": "Themes allow you to create and switch between themes in your Laravel app. (Based on teepluss/theme)",
     "keywords": ["laravel", "theme", "layout", "asset", "widget"],
     "homepage": "https://github.com/simplepleb/themes",
