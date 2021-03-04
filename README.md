@@ -30,11 +30,16 @@ php artisan vendor:publish --provider="SimplePleb\Theme\ThemeServiceProvider"
 
 Oreo
 
-<img src="./public/themes/oreo/screenshot.jpeg" width="400">
+<img src="./publishes/themes/oreo/screenshot.jpeg" width="400">
+
+Digincy
+
+<img src="./publishes/themes/digincy/screenshot.jpeg" width="400">
 
 Hustbee
 
-<img src="./public/themes/hustbee/screenshot.jpeg" width="400">
+<img src="./publishes/themes/hustbee/screenshot.jpeg" width="400">
+
 
 
 ### References
