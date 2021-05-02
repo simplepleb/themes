@@ -35,8 +35,8 @@ return array(
 
 		'before' => function($theme)
 		{
-			$theme->setTitle('Title example');
-			$theme->setAuthor('Jonh Doe');
+			// $theme->setTitle('Title example');
+			$theme->setAuthor('Simple-Pleb.com');
 		},
 
 		'asset' => function($asset)

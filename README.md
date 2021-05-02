@@ -50,6 +50,26 @@ Hustbee
 
 <img src="./publishes/themes/hustbee/screenshot.jpeg" width="400">
 
+Settings
+
+Each theme can add custom settings to Laravel by adding a file ```custom_fields.json``` to the theme's folder. 
+These fields generate a complete setting's form within Laravel.
+
+```json
+{
+    "fields": [
+        { "field_name": "home_title", "field_type": "textbox", "field_options": "", "field_help": "", "field_value": "Welcome Home"},
+        { "field_name": "footer_text", "field_type": "textarea", "field_options": "", "field_help": "Placed on the bottom of every page", "field_value": "Thanks for visiting"},
+        { "field_name": "home_intro", "field_type": "wysiwyg", "field_options": "", "field_help": "", "field_value": "<h1>Thanks for visiting</h1>"},
+        { "field_name": "enable_customizer", "field_type": "checkbox", "field_options": "", "field_help": "Show style customizer", "field_value": "Thanks for visiting"},
+        { "field_name": "test_select", "field_type": "select2", "field_options": "White,Yellow,Black", "field_help": "Tests the select", "field_value": "White"}
+    ]
+
+}
+```
+
+<img src="https://user-images.githubusercontent.com/79759974/116823077-7266b880-ab50-11eb-9cea-1fab1a3fc34d.png" width="400">
+
 
 
 ### References
