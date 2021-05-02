@@ -1,6 +1,6 @@
 {
     "name": "simplepleb/themes",
-    "version": "v1.0.1",
+    "version": "v1.0.2",
     "description": "Themes allow you to create and switch between themes in your Laravel app.",
     "keywords": ["laravel", "laravel-cms","laravel-themes","laravel-theme-maker","laravel-dashboard","laravel-theme"],
     "homepage": "https://github.com/simplepleb/themes",
