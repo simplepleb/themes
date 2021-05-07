@@ -1,0 +1,44 @@
+{
+    "fields": [
+        { "field_name": "home_title", "field_type": "textbox", "field_options": "", "field_help": "", "field_value": "Welcome Home"},
+        { "field_name": "footer_text", "field_type": "textarea", "field_options": "", "field_help": "Placed on the bottom of every page", "field_value": "Thanks for visiting"},
+        { "field_name": "footer_copyright", "field_type": "textbox", "field_options": "", "field_help": "Placed on the bottom of every page", "field_value": "Copyright MySite"},
+        { "field_name": "home_intro", "field_type": "wysiwyg", "field_options": "", "field_help": "", "field_value": "<h1>Thanks for visiting</h1>"},
+        { "field_name": "home_latest_news", "field_type": "checkbox", "field_options": "", "field_help": "Show latest news on home page", "field_value": "1"},
+        { "field_name": "home_support_links", "field_type": "checkbox", "field_options": "", "field_help": "Show support links on home page", "field_value": "1"},
+        { "field_name": "home_search_field", "field_type": "checkbox", "field_options": "", "field_help": "Show search on home page", "field_value": "1"},
+        { "field_name": "facebook_url", "field_type": "textbox", "field_options": "", "field_help": "Facebook Page", "field_value": ""},
+        { "field_name": "youtube_url", "field_type": "textbox", "field_options": "", "field_help": "YouTube Page", "field_value": ""},
+        { "field_name": "twitter_url", "field_type": "textbox", "field_options": "", "field_help": "Twitter Page", "field_value": ""},
+        { "field_name": "instagram_url", "field_type": "textbox", "field_options": "", "field_help": "Instagram Page", "field_value": ""},
+        { "field_name": "test_select", "field_type": "select2", "field_options": "White,Yellow,Black", "field_help": "Tests the select", "field_value": "White"}
+    ],
+    "menus": [
+        { "menu_name":  "hustbee_footer_1", "menu_class":  "", "links": [
+            { "title": "About Us", "url": "/about_us", "li_class": "", "link_class": "", "parent": 0, "order": 0 },
+            { "title": "Press & Media", "url": "/press-media", "li_class": "", "link_class": "", "parent": 0, "order": 0 },
+            { "title": "News & Blog", "url": "/blog", "li_class": "", "link_class": "", "parent": 0, "order": 0 } ,
+            { "title": "Contact Us", "url": "/contact-us", "li_class": "", "link_class": "", "parent": 0, "order": 0 },
+            { "title": "Careers", "url": "/careers", "li_class": "", "link_class": "", "parent": 0, "order": 0 }
+        ] },
+        { "menu_name":  "hustbee_footer_2", "menu_class":  "nav navbar-nav navbar-nav-centered", "links": [
+            { "title": "About Us", "url": "/about_us", "li_class": "nav-item", "link_class": "nav-link", "parent": 0, "order": 0  },
+            { "title": "Press & Media", "url": "/press-media", "li_class": "nav-item", "link_class": "nav-link", "parent": 0, "order": 0  }
+        ] },
+        { "menu_name":  "hustbee_footer_3", "menu_class":  "nav navbar-nav navbar-nav-centered", "links": [
+            { "title": "About Us", "url": "/about_us", "li_class": "nav-item", "link_class": "nav-link", "parent": 0, "order": 0  },
+            { "title": "Press & Media", "url": "/press-media", "li_class": "nav-item", "link_class": "nav-link", "parent": 0, "order": 0  }
+        ] },
+        { "menu_name":  "hustbee_footer_4", "menu_class":  "nav navbar-nav navbar-nav-centered", "links": [
+            { "title": "About Us", "url": "/about_us", "li_class": "nav-item", "link_class": "nav-link", "parent": 0, "order": 0  },
+            { "title": "Press & Media", "url": "/press-media", "li_class": "nav-item", "link_class": "nav-link", "parent": 0, "order": 0  }
+        ] },
+        { "menu_name":  "nav_main", "menu_class":  "nav navbar-nav navbar-nav-centered", "links": [
+            { "title": "About Us", "url": "/about_us", "li_class": "nav-item", "link_class": "nav-link", "parent": 0, "order": 0  },
+            { "title": "Press & Media", "url": "/press-media", "li_class": "nav-item", "link_class": "nav-link", "parent": 0, "order": 0  }
+        ] }
+    ]
+
+}
+
+

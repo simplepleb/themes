@@ -14,6 +14,11 @@
                             <a class="navbar-brand" href="/"><img src="{!! Theme::asset()->url('assets/images/logo.svg') !!}" alt="{{ config('app.name') }}"></a>
                         </div>
                         <div style="height: 1px;" role="main" aria-expanded="false" class="navbar-collapse collapse navbar-collapse-centered" id="bs">
+
+                            @isset($nav_main)
+                                {!! $nav_main->asUl( ['class' => 'nav navbar-nav navbar-nav-centered'], [] ) !!}
+                                {{--   This requires MenuMaker Module (https://github.com/simplepleb/menumaker-module.git) --}}
+                            @else
                             <ul class="nav navbar-nav navbar-nav-centered">
                                 <li class="nav-item"><a class="nav-link" href="home-light.html">Light Header</a></li>
                                 <li class="nav-item dropdown">
@@ -80,14 +85,23 @@
                                     </ul>
                                 </li>
                             </ul>
+                            @endisset
                             <ul class="nav navbar-nav navbar-right other-navbar">
                                 <li class="nav-item">
-                                    <a class="nav-link btn-client-area" href="login.html"><img src="{!! Theme::asset()->url('assets/images/lock.svg') !!}" alt="">Client Area</a>
-                                    <div class="chat-info"><i class="hstb hstb-right-arrow"></i>Chat Available</div>
+                                    @auth
+                                        <a class="nav-link btn-client-area" href="{{ route('backend.dashboard') }}"><img src="{!! Theme::asset()->url('assets/images/lock.svg') !!}" alt="">{{ __('Client Area') }}</a>
+                                    @endauth
+                                    @guest
+                                        <a class="nav-link btn-client-area" href="{{ route('login') }}"><img src="{!! Theme::asset()->url('assets/images/lock.svg') !!}" alt="">{{ __('Login') }}</a>
+                                    @endguest
+
+                                    @if( \Module::has('chat'))<div class="chat-info"><i class="hstb hstb-right-arrow"></i>{{ __('Chat Available') }}</div> @endif
                                 </li>
+                                @if( \Module::has('chat'))
                                 <li class="nav-item">
                                     <a class="nav-link btn-chat" href="#"><i class="hstb hstb-chat"></i></a>
                                 </li>
+                                @endif
                             </ul>
                         </div>
                     </div>

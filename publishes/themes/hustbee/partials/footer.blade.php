@@ -4,47 +4,72 @@
         <div class="row">
             <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
                 <div class="footer-menu">
-                    <h4>Company</h4>
+                    <h4>{{ __('Footer 1') }}</h4>
+                    @isset($hustbee_footer_1)
+                        {!! $hustbee_footer_1->asUl( ['class' => 'footer-menu'], [] ) !!}
+                      {{--   This requires MenuMaker Module (https://github.com/simplepleb/menumaker-module.git) --}}
+                    @else
                     <ul>
-                        <li><a href="about.html">About us</a></li>
-                        <li><a href="blog.html">Press & Media</a></li>
-                        <li><a href="blog.html">News & Blog</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Press & Media</a></li>
+                            <li><a href="#">News & Blog</a></li>
+                            <li><a href="#">Contact Us</a></li>
                         <li><a href="#">Careers</a></li>
                     </ul>
+                    @endisset
                 </div>
             </div>
             <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
                 <div class="footer-menu">
-                    <h4>Hosting</h4>
+                    <h4>{{ __('Footer 2') }}</h4>
+                    @isset($hustbee_footer_2)
+                        {!! $hustbee_footer_2->asUl( ['class' => 'footer-menu'], [] ) !!}
+                        {{--   This requires MenuMaker Module (https://github.com/simplepleb/menumaker-module.git) --}}
+                    @else
                     <ul>
-                        <li><a href="webhosting.html">Web Hosting</a></li>
-                        <li><a href="wordpresshosting.html">Wordpress Hosting</a></li>
-                        <li><a href="cloudhosting.html">Cloud Hosting</a></li>
-                        <li><a href="vpshosting.html">VPS Hosting</a></li>
-                        <li><a href="dedicatedhosting.html">Dedicated Hosting</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Press & Media</a></li>
+                            <li><a href="#">News & Blog</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Careers</a></li>
                     </ul>
+                    @endisset
                 </div>
             </div>
             <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
                 <div class="footer-menu">
-                    <h4>Domains</h4>
+                    <h4>{{ __('Footer 3') }}</h4>
+                    @isset($hustbee_footer_3)
+                        {!! $hustbee_footer_3->asUl( ['class' => 'footer-menu'], [] ) !!}
+                        {{--   This requires MenuMaker Module (https://github.com/simplepleb/menumaker-module.git) --}}
+                    @else
                     <ul>
-                        <li><a href="domains.html">Register Domains</a></li>
-                        <li><a href="domains.html">Transfer Domains</a></li>
-                        <li><a href="domains.html">Manage Domains</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Press & Media</a></li>
+                            <li><a href="#">News & Blog</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Careers</a></li>
                     </ul>
+                    @endisset
+
                 </div>
             </div>
             <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
                 <div class="footer-menu">
-                    <h4>Support</h4>
+                    <h4>{{ __('Footer 4') }}</h4>
+
+                    @isset($hustbee_footer_4)
+                        {!! $hustbee_footer_4->asUl( ['class' => 'footer-menu'], [] ) !!}
+                        {{--   This requires MenuMaker Module (https://github.com/simplepleb/menumaker-module.git) --}}
+                    @else
                     <ul>
-                        <li><a href="login.html">Client area</a></li>
-                        <li><a href="#">Tutorials</a></li>
-                        <li><a href="#">Documentation</a></li>
-                        <li><a href="#">Forums</a></li>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Press & Media</a></li>
+                            <li><a href="#">News & Blog</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Careers</a></li>
                     </ul>
+                    @endisset
                 </div>
             </div>
             <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
@@ -72,7 +97,7 @@
                         <ul>
                             <li><a href="#">Sitemap</a></li>
                             <li><a href="#">Terms of Service</a></li>
-                            <li><a href="privacy.html">Privacy Policy</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
                         </ul>
                     </div>
                 </div>
