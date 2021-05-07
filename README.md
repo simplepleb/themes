@@ -57,7 +57,7 @@ These fields generate a complete setting's form within Laravel.
 
 ### Custom Menus
 
-Themes can make footer or other <ul> lists easy to modify by adding menus to the file ```custom_fields.json```
+Themes can make footer or other ```<ul>``` lists easy to modify by adding menus to the file ```custom_fields.json```
 
 ```json 
 "menus": [
