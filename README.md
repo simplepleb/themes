@@ -54,6 +54,7 @@ These fields generate a complete setting's form within Laravel.
 }
 ```
 
+<img src="https://user-images.githubusercontent.com/79759974/116823077-7266b880-ab50-11eb-9cea-1fab1a3fc34d.png" width="400">
 
 ### Custom Menus
 
@@ -80,7 +81,6 @@ easier way to manage menus and make them easily edited and managed. Take a look 
 
 
 
-<img src="https://user-images.githubusercontent.com/79759974/116823077-7266b880-ab50-11eb-9cea-1fab1a3fc34d.png" width="400">
 
 
 ### Screenshots Of Sample Themes
