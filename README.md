@@ -91,15 +91,15 @@ easier way to manage menus and make them easily edited and managed. Take a look 
 
 Oreo
 
-<img src="./publishes/themes/oreo/screenshot.jpeg" width="400">
+<img src="https://github.com/simplepleb/themes/raw/main/publishes/themes/oreo/screenshot.jpeg" width="400">
 
 Digincy
 
-<img src="./publishes/themes/digincy/screenshot.jpeg" width="400">
+<img src="https://github.com/simplepleb/themes/raw/main/publishesthemes/digincy/screenshot.jpeg" width="400">
 
 Hustbee
 
-<img src="./publishes/themes/hustbee/screenshot.jpeg" width="400">
+<img src="https://github.com/simplepleb/themes/raw/main/publishes/themes/hustbee/screenshot.jpeg" width="400">
 
 
 
