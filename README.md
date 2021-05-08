@@ -95,7 +95,7 @@ Oreo
 
 Digincy
 
-<img src="https://github.com/simplepleb/themes/raw/main/publishesthemes/digincy/screenshot.jpeg" width="400">
+<img src="https://github.com/simplepleb/themes/raw/main/publishes/themes/digincy/screenshot.jpeg" width="400">
 
 Hustbee
 
