@@ -1,5 +1,6 @@
 <?php
-use Opis\Closure\SerializableClosure;
+
+/* use Opis\Closure\SerializableClosure;
 
 
 $function = function(){
@@ -21,7 +22,7 @@ $asset = function(){
 $assetSerialize = new SerializableClosure($asset);
 
 
-
+*/
 
 return array(
 
