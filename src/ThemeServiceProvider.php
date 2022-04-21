@@ -43,10 +43,10 @@ class ThemeServiceProvider extends ServiceProvider {
 	 */
 	public function boot(Router $router)
 	{
-		$configPath = __DIR__.'/../config/theme.php';
+		// $configPath = __DIR__.'/../config/theme.php';
 
 		// Publish config.
-		$this->publishes([$configPath => config_path('theme.php')], 'config');
+		// $this->publishes([$configPath => config_path('theme.php')], 'config');
 
         $this->publishes([
             __DIR__ . '/../publishes/themes' => public_path('themes'),
@@ -58,7 +58,7 @@ class ThemeServiceProvider extends ServiceProvider {
 		$this->addToBlade(['dd', 'dd(%s);']);
 		$this->addToBlade(['dv', 'dd(get_defined_vars()[%s]);', 'dd(get_defined_vars()["__data"]);']);
 		$this->addToBlade(['d', 'dump(%s);']);
-        $this->addToBlade(['themeConfig', 'Theme::getConfig();']);
+        	$this->addToBlade(['themeConfig', 'Theme::getConfig();']);
 
 		$this->addToBlade(['get', 'Theme::get(%s);']);
 		$this->addToBlade(['getIfHas', 'Theme::has(%1$s) ? Theme::get(%1$s) : ""']);
@@ -84,10 +84,10 @@ class ThemeServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-		$configPath = __DIR__.'/../config/theme.php';
+		// $configPath = __DIR__.'/../config/theme.php';
 
 		// Merge config to allow user overwrite.
-		$this->mergeConfigFrom($configPath, 'theme');
+		// $this->mergeConfigFrom($configPath, 'theme');
 
 		$app = $this->app;
 
