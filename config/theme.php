@@ -100,10 +100,10 @@ return array(
 	'events' => array(
 
 		// Before all event, this event will effect for global.
-		'before' => ''; // $themeSerialize,
+		'before' => '', // $themeSerialize,
 
 		// This event will fire as a global you can add any assets you want here.
-		'asset' => ''; //$assetSerialize
+		'asset' => '', //$assetSerialize
 
 	),
 
